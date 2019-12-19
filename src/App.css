@@ -1,0 +1,68 @@
+.margin {
+    margin: 6;
+}
+
+.App {
+    text-align: center;
+}
+
+.Apps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    height: 100%;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #fff;
+    height: 150px;
+    padding: 20px;
+    color: #000;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.text {
+    color: blueviolet;
+}
+
+.textField {
+    margin-left: 10;
+    margin-right: 10;
+    width: 200;
+}
+
+.rows {
+    display: table-cell;
+    flex-wrap: 'wrap';
+}
+
+.cards {
+    width:auto;
+    align-self: center;
+    text-align: right;
+    background-color: aquamarine;
+    color: darkgrey;
+}
+.copyright{
+    text-align: end;
+    margin-top: 8%;
+    align-self: flex-end;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
